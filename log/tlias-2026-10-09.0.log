@@ -1,0 +1,21 @@
+2026-10-09 11:04:39.241 [main] INFO  com.itdt.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 26.0.2.1 with PID 12972 (D:\java_projects\MyWeb\web-ai-project02\tlias-web-management\target\classes started by 涂剑彬 in D:\java_projects\MyWeb\web-ai-project02)
+2026-10-09 11:04:39.243 [main] INFO  com.itdt.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-09 11:04:39.895 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-09 11:04:39.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-09 11:04:39.907 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-09 11:04:39.917 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-09 11:04:39.955 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 675 ms
+2026-10-09 11:04:40.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-09 11:04:40.321 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-09 11:04:40.326 [main] INFO  com.itdt.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.399 seconds (process running for 1.941)
+2026-10-09 11:04:50.987 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-09 11:04:50.988 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-09 11:04:50.989 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-10-09 11:04:51.027 [http-nio-8080-exec-2] INFO  com.itdt.controller.DeptController - 查询全部的部门数据
+2026-10-09 11:04:51.046 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-09 11:04:51.579 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ac74c69
+2026-10-09 11:04:51.582 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-09 11:05:24.957 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-09 11:05:24.968 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-09 11:05:24.970 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-09 11:05:24.974 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
